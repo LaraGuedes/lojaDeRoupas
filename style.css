@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(219, 173, 230);
+}
+
+nav ul, li{
+    padding-left: 20px;
+    padding-top: 20px;
+    display: flex;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+section{
+    width: 100%;
+    height: 470px;
+    display: flex;
+    text-align: center;
+}
+
+.roupas-section{
+    margin-top: 100px;
+    width: 30%;
+    height: 60%;
+}
+
+img{
+    width: 150px;
+}
+
+.roupas-img{
+    margin-left: 23%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    width: 50%;
+}
+
+.roupas-img-saia{
+    margin-left: 20%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 62%;
+}
+
+.roupas-img-moleton{
+    margin-left: 23%;
+    margin-top: 22px;
+    margin-bottom: 5px;
+    padding: 5px;
+    width: 55%;
+}
+
+footer{
+    background-color: lightcoral;
+    width: 100%;
+    height: 80px;
+}
+
+footer p{
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+footer form{
+    padding-top: 10px;
+}
+
+footer label{
+    padding-left: 15px;
+}
